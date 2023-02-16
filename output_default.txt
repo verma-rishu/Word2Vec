@@ -1,0 +1,177 @@
+./hw-model-training.sh
+make: Nothing to be done for `all'.
+--2023-02-11 15:53:07--  http://www.statmt.org/lm-benchmark/1-billion-word-language-modeling-benchmark-r13output.tar.gz
+Resolving www.statmt.org (www.statmt.org)... 129.215.197.184
+Connecting to www.statmt.org (www.statmt.org)|129.215.197.184|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.statmt.org/lm-benchmark/1-billion-word-language-modeling-benchmark-r13output.tar.gz [following]
+--2023-02-11 15:53:07--  https://www.statmt.org/lm-benchmark/1-billion-word-language-modeling-benchmark-r13output.tar.gz
+Connecting to www.statmt.org (www.statmt.org)|129.215.197.184|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1792209805 (1.7G) [application/x-gzip]
+Saving to: ‘hwdataset.gz’
+
+hwdataset.gz                     100%[=======================================================>]   1.67G  4.01MB/s    in 7m 6s   
+
+2023-02-11 16:00:14 (4.01 MB/s) - ‘hwdataset.gz’ saved [1792209805/1792209805]
+
+Starting training using file hwdataset
+Vocab size: 559307
+Words in train file: 812369182
+Alpha: 0.040377  Progress: 19.25%  Words/thread/sec: 107.57k  
+Alpha: 0.000005  Progress: 99.99%  Words/thread/sec: 111.44k  
+real    306m55.985s
+user    1813m30.332s
+sys     11m54.868s
+Enter word or sentence (EXIT to break): 
+Word:   Position in vocabulary: 40579
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                        REPOSITORY              0.484718
+                                          R/Filter              0.464457
+                                         <</Length              0.458029
+                                    /FlateDecode>>              0.452214
+                                        'Avventura              0.428064
+                                            'Enfer              0.412610
+                                           'Aquila              0.406933
+                                             role.              0.406715
+                                            'OREAL              0.406182
+                                             29844              0.401473
+                                       'Expression              0.400054
+                                         'Humanite              0.389046
+                                           /Border              0.383330
+                                            'Chaim              0.380919
+                                          'Affaire              0.380506
+                                           'Angolo              0.377847
+                                          'Heureux              0.377389
+                                             'Echo              0.375719
+                                           (wc_id,              0.370104
+                                          'Équipe               0.369577
+                                           'Ecuyer              0.368327
+                                              7166              0.367982
+                                            'Etape              0.367968
+                                            'Osier              0.364444
+                                            'Engle              0.360944
+                                          hospice.              0.359281
+                                         'Avvenire              0.357230
+                                           68-year              0.356768
+                                         'Etranger              0.356601
+                                           /Rotate              0.355807
+                                             'Isle              0.355409
+                                              'viv              0.355105
+                                         'Escargot              0.354329
+                                             'Jean              0.347894
+                                        madagascar              0.347223
+                                         'Échange               0.345887
+                                        italicised              0.345460
+                                            0-1-0-              0.342505
+                                           'Oréal               0.342296
+                                           'Enfant              0.341892
+Enter word or sentence (EXIT to break): cat
+
+Word: cat  Position in vocabulary: 6179
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                               dog              0.842780
+                                              cats              0.781565
+                                            kitten              0.765664
+                                            feline              0.765428
+                                             puppy              0.759106
+                                             tabby              0.713651
+                                           raccoon              0.708620
+                                            rodent              0.708073
+                                               rat              0.706211
+                                               pet              0.698200
+                                            rabbit              0.697700
+                                              mutt              0.696768
+                                             snake              0.696276
+                                          labrador              0.692936
+                                           felines              0.691762
+                                             pooch              0.689559
+                                            monkey              0.688796
+                                             furry              0.686971
+                                         chihuahua              0.686726
+                                              paws              0.686437
+                                           kittens              0.686352
+                                              dogs              0.680150
+                                           hamster              0.677473
+                                            parrot              0.675425
+                                           puppies              0.674441
+                                          Doberman              0.674317
+                                         alligator              0.671466
+                                               pug              0.670464
+                                           rabbits              0.661284
+                                            Fluffy              0.656899
+                                               pup              0.653508
+                                         dachshund              0.650166
+                                            coyote              0.648912
+                                             hippo              0.642100
+                                               fox              0.639447
+                                             moggy              0.638013
+                                               paw              0.636785
+                                            python              0.631390
+                                              poop              0.626365
+                                          tortoise              0.626008
+Enter word or sentence (EXIT to break): she
+
+Word: she  Position in vocabulary: 80
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                               She              0.882054
+                                               her              0.775674
+                                                he              0.740056
+                                           herself              0.719965
+                                              hers              0.697146
+                                            mother              0.661071
+                                           husband              0.645335
+                                             woman              0.634313
+                                                He              0.630455
+                                          daughter              0.593189
+                                              girl              0.589550
+                                               mom              0.573251
+                                                me              0.571713
+                                           someone              0.570425
+                                       grandmother              0.567232
+                                               him              0.566731
+                                                 I              0.557855
+                                         boyfriend              0.554759
+                                               mum              0.544139
+                                     mother-in-law              0.539790
+                                             never              0.533164
+                                               dad              0.524885
+                                            father              0.524503
+                                                my              0.522950
+                                              aunt              0.521738
+                                              baby              0.519553
+                                          teenager              0.516199
+                                       hairdresser              0.514634
+                                            doctor              0.502372
+                                           Someone              0.499098
+                                             lover              0.496589
+                                               boy              0.493579
+                                             nanny              0.491293
+                                       housekeeper              0.483812
+                                             nurse              0.483576
+                                            myself              0.482925
+                                              maid              0.482804
+                                          somebody              0.481734
+                                               Mum              0.481452
+                                           toddler              0.480744
+Enter word or sentence (EXIT to break): like
+
+Word: like  Position in vocabulary: 103
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                             weird              0.641503
+                                             crazy              0.619313
+                                              Like              0.610305
+                                             silly              0.600494
+                                           besides              0.587803
+                                              nice              0.584790
+                                               odd              0.579132
+                                             scary              0.576245
+                                            unlike              0.575557
