@@ -1,0 +1,49 @@
+rishuverma@Rishus-MacBook-Air trunk % ./distance hwdataset.bin 
+Enter word or sentence (EXIT to break): cat
+
+Word: cat  Position in vocabulary: 6179
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                               dog              0.842780
+                                              cats              0.781565
+                                            kitten              0.765664
+                                            feline              0.765428
+                                             puppy              0.759106
+                                             tabby              0.713651
+                                           raccoon              0.708620
+                                            rodent              0.708073
+                                               rat              0.706211
+                                               pet              0.698200
+Enter word or sentence (EXIT to break): like
+
+Word: like  Position in vocabulary: 103
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                             weird              0.641503
+                                             crazy              0.619313
+                                              Like              0.610305
+                                             silly              0.600494
+                                           besides              0.587803
+                                              nice              0.584790
+                                               odd              0.579132
+                                             scary              0.576245
+                                            unlike              0.575557
+                                           strange              0.573954
+Enter word or sentence (EXIT to break): she
+
+Word: she  Position in vocabulary: 80
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                               She              0.882054
+                                               her              0.775674
+                                                he              0.740056
+                                           herself              0.719965
+                                              hers              0.697146
+                                            mother              0.661071
+                                           husband              0.645335
+                                             woman              0.634313
+                                                He              0.630455
+                                          daughter              0.593189
